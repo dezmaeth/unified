@@ -1,0 +1,14 @@
+{
+	"layout": {
+		"path": "/",
+		"run": "layout"
+	},
+	"home": {
+		"path": "/",
+		"run": "home"
+		},
+	"404": {
+		"path": "/",
+		"run":"404"
+	}
+}

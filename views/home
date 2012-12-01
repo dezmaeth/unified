@@ -1,0 +1,31 @@
+  <!-- Main hero unit for a primary marketing message or call to action -->
+    <div class="hero-unit">
+        <h1>Welcome to Nashira Framework</h1>
+        <p>If this page is displayed correctly, you have properly configured Nashira Framework for your awesome project. You can also check out our Quick Start Guide to learn more...</p>
+        <p><a class="btn btn-primary btn-large">Learn more &raquo;</a></p>
+    </div>
+
+    <!-- Example row of columns -->
+    <div class="row">
+        <div class="span4">
+            <h2>HTML5BP & Twitter Bootstrap</h2>
+            <p>Nashira Framework is integrated with Paul irish's HTML5 Boilerplate and Twitter Bootstrap for easy aplication development</p>
+            <p><a class="btn" href="#">View details &raquo;</a></p>
+        </div>
+        <div class="span4">
+            <h2>Templating, code minification, and many other goodies!</h2>
+            <p>The template parser integrated on the framework enables to minify, remove comments, pack JS files with P.A.C.K.E.R script and cache the server responses...</p>
+            <p><a class="btn" href="#">View details &raquo;</a></p>
+       </div>
+        <div class="span4">
+            <h2>Modular Code</h2>
+            <p>You can get updates on each module by separate, so if you happen to use an older version of this framework, you don't have to rewrite more than necesary...</p>
+            <p><a class="btn" href="#">View details &raquo;</a></p>
+        </div>
+    </div>
+
+    <hr>
+
+    <footer>
+        <p>&copy; MCAST 2012</p>
+    </footer>

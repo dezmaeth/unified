@@ -1,0 +1,11 @@
+{
+	"default": {
+		"pattern": "/default",
+		"run": "home.php"
+	},
+	"bd": {
+		"pattern": "/bd",
+		"run": "parser.php"
+	} 
+
+}

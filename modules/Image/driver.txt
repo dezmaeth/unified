@@ -1,0 +1,9 @@
+<?  
+	if (isset($_REQUEST["img"])) {
+		$img = $_REQUEST["img"];
+		include '../uSell/uSell.php';
+		$server = new uSell();
+		$server->Query(Array('mod'=>'Image',
+						  'act'=>Array('displayImage'=>$img)));
+	}
+?>
