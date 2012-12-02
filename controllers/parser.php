@@ -8,7 +8,11 @@ Class Controller extends Controllers {
 	}
 
 	function GET($r,$p) {
-		echo '{"data": [ 0: 1] }';
+		$this->__autoload("Db");
+		$list = $this->Db->exeQ("SELECT * FROM LISTADO_CONSULTORIOS");
+		
+		print json_encode($list);
+
 	}
 }
 ?>
